@@ -28,7 +28,7 @@
     "change-case": "^4.1.2",
     "downloadjs": "^1.4.7",
     "eslint": "^8.21.0",
-    "eslint-plugin-github": "^4.3.7",
+    "eslint-plugin-github": "^5.1.0",
     "gatsby": "^3.13.1",
     "gatsby-plugin-alias-imports": "^1.0.5",
     "gatsby-plugin-postcss": "^4.14.0",
