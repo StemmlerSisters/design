@@ -126,6 +126,8 @@
           url: /foundations/primitives/size
         - title: Typography
           url: /foundations/primitives/typography
+        - title: Migrating
+          url: /foundations/primitives/migrating
     - title: Responsive
       url: /foundations/responsive
     - title: CSS utilities
@@ -184,10 +186,10 @@
       url: /ui-patterns/forms/overview
     - title: Loading
       url: /ui-patterns/loading
-    - title: Messaging
-      url: /ui-patterns/messaging
     - title: Navigation
       url: /ui-patterns/navigation
+    - title: Notification messaging
+      url: /ui-patterns/notification-messaging
     - title: Progressive disclosure
       url: /ui-patterns/progressive-disclosure
     - title: Saving
@@ -211,6 +213,8 @@
       url: /components/avatar-pair
     - title: Avatar stack
       url: /components/avatar-stack
+    - title: Banner
+      url: /components/banner
     - title: Blankslate
       url: /components/blankslate
     - title: Border box
@@ -247,8 +251,6 @@
       url: /components/details
     - title: Dialog
       url: /components/dialog
-    - title: Flash
-      url: /components/flash
     - title: Form control
       url: /components/form-control
     - title: Header
@@ -263,8 +265,8 @@
       url: /components/icon-button
     - title: Image
       url: /components/image
-    - title: Image crop
-      url: /components/image-crop
+    - title: Inline message
+      url: /components/inline-message
     - title: Label
       url: /components/label
     - title: Label group
@@ -307,10 +309,18 @@
       url: /components/select
     - title: Select panel
       url: /components/selectpanel
+    - title: Skeleton avatar
+      url: /components/skeleton-avatar
+    - title: Skeleton text
+      url: /components/skeleton-text
+    - title: Skeleton box
+      url: /components/skeleton-box
     - title: Spinner
       url: /components/spinner
     - title: Split page layout
       url: /components/split-page-layout
+    - title: Stack
+      url: /components/stack
     - title: State label
       url: /components/state-label
     - title: Subnav
@@ -331,8 +341,6 @@
       url: /components/textarea
     - title: Timeline
       url: /components/timeline
-    - title: Toast
-      url: /components/toast
     - title: Toggle switch
       url: /components/toggle-switch
     - title: Token
@@ -357,12 +365,16 @@
       url: /deprecated-components/filter-list
     - title: Filtered search
       url: /deprecated-components/filtered-search
+    - title: Flash
+      url: /deprecated-components/flash
     - title: Menu
       url: /deprecated-components/menu
     - title: Select menu
       url: /deprecated-components/select-menu
     - title: Side nav
       url: /deprecated-components/side-nav
+    - title: Toast
+      url: /deprecated-components/toast
 - title: GitHub staff
   url: /github-staff
   children:
