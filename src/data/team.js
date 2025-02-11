@@ -1,5 +1,32 @@
 const teamContent = [
   {
+    name: 'Marie Lucca',
+    handle: 'francinelucca',
+    title: 'Software Engineer',
+    questionOne:
+      `I was enticed by the prospect of doing work that is impactful at a company-wide scale and beyond, and the striveness for excellence that performing at such a critical, very low-error-tolerance environment entails. I am always very proud to see the results of my team's and my hard work materialized in beautiful, useful applications deployed worldwide. I also appreciate the opportunity to work very closely with design while still wearing a developer hat.`,
+    questionTwo: `I've had the opportunity to work and be mentored by some truly amazing folks. From managers, technology leaders, software architects, professors turned colleagues, and more. I appreciate every professional I have and will interface with along my journey and take a small piece of them with me wherever I go. 
+    
+    Honorable mentions go to [Sergio Lopez](https://www.linkedin.com/in/sergio-l%C3%B3pez-90725288), the college professor that took me under his wing and beared with me as I broke production more times than I'd be willing to admit, closely followed by [Joe Harvey](https://www.linkedin.com/in/joseph-harvey-ny), who taught me the difference between software development and engineering.`,
+    favoriteTools: 'VSCode, GitHub, TypeScript, React, middle-of-the-day naps, high-speed internet, and, most importantly, a mini can of Coke Zero ',
+    cssFeature: 'calc(<wild-math-equation-here>)',
+    avatar: 'https://avatars.githubusercontent.com/francinelucca?s=512',
+    gif: 'https://raw.githubusercontent.com/francinelucca/francinelucca/assets/dog-in-bed.gif',
+    alumni: false,
+  },
+  {
+    name: 'Josh Farrant',
+    handle: 'joshfarrant',
+    title: 'Senior Software Engineer',
+    cssFeature: 'CSS nesting',
+    questionOne: `In many ways, the creation of [Storybook](https://storybook.js.org/). Version 3 coincided with the start of my second React project and started me thinking about how I might be able to design components once and share them between the two apps, leading to my first basic design system. Over the years I've focused more of my time on design systems, refined my skills, and fallen deeper down the rabbit hole.`,
+    questionTwo: `[Brad Frost](https://bradfrost.com/)'s work on Atomic Design and his vision for a Global Design System have significantly informed how I think about design systems. [Dave Rupert](https://daverupert.com/) has opened my eyes to how much is possible with Web Components, [Bartosz Ciechanowski](https://ciechanow.ski/) showcases exceptional writing and storytelling on the web, and I find continuous inspiration from [Una Kravets](https://una.im/), [Jen Simmons](https://jensimmons.com/), and [Adam Argyle](https://nerdy.dev/), as well as the superior Joshs; [Collinsworth](https://joshcollinsworth.com/) and [Comeau](https://www.joshwcomeau.com/).`,
+    favoriteTools: 'Raycast, Obsidian, TypeScript, Web Components, V60, ZSA Moonlander, OP-1',
+    avatar: 'https://avatars.githubusercontent.com/joshfarrant?s=512',
+    gif: 'https://github.com/joshfarrant/joshfarrant/blob/master/assets/img/jameshoffmann-no.gif?raw=true',
+    alumni: false,
+  },
+  {
     name: 'Jessica Kuo',
     title: 'Primer Systems Designer Intern',
     handle: 'jesskuo4',
@@ -22,7 +49,7 @@ const teamContent = [
     questionTwo: `I've learned a ton from my colleagues in the past. Stephen, Kyle, Michael, John, Trevor, and so many others. I'm also a big fan of [Adrian Roselli](https://adrianroselli.com/), [Sara Soueidan](https://www.sarasoueidan.com/), [Marcy Sutton](https://marcysutton.com/), and all the others who helped me gain more insights into accessibility as a whole.`,
     favoriteTools: `VS Code, NVDA, GitHub, CodePen, my notebook`,
     avatar: 'https://avatars.githubusercontent.com/u/26746305?v=4',
-    gif: 'https://camo.githubusercontent.com/8a2ec9a1d7620b431b3ae56cc487bb1d78fe0ed71e9bc8275258c6db84223e57/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7161765844566a7561475075772f67697068792e676966',
+    gif: 'https://camo.githubusercontent.com/b50b82a588f51b30cada6475a69147bfe63dc52aae964a80e9791490e85eda3e/68747470733a2f2f692e67697068792e636f6d2f35464b4e6a6d385275333237752e676966',
     alumni: false,
   },
   {
@@ -152,7 +179,8 @@ const teamContent = [
     cssFeature: 'float: left',
     avatar: 'https://avatars.githubusercontent.com/u/118266?v=4',
     gif: 'https://user-images.githubusercontent.com/118266/198547240-c6bbf2cd-3c3f-4d58-8e1e-0336f90fd48c.gif',
-    alumni: false,
+    alumni: true,
+    color: 'orange',
   },
   {
     name: 'Leslie Cohn-Wein',
@@ -375,7 +403,7 @@ const teamContent = [
     favoriteTools: 'VS Code, Todoist, Spotify',
     avatar: 'https://user-images.githubusercontent.com/10384315/75709494-9f32ed80-5c77-11ea-86eb-e798fcfcaa5d.jpg',
     gif: 'https://user-images.githubusercontent.com/1940294/75078886-191ee600-54c4-11ea-883c-93e1815e75a6.gif',
-    alumni: false,
+    alumni: true,
   },
   {
     name: 'Aurora Pleguezuelo',
@@ -540,18 +568,6 @@ const teamContent = [
     favoriteTools: 'Hyper, Atom, Figma, MDN, and Quip',
     avatar: 'https://user-images.githubusercontent.com/586552/46751001-5c8a0300-cc87-11e8-84bb-9024b03df74f.jpg',
     gif: 'https://user-images.githubusercontent.com/334891/50363219-bab14d00-0538-11e9-9595-48b3c45358ab.gif',
-    alumni: false,
-  },
-  {
-    name: 'Josh Farrant',
-    handle: 'joshfarrant',
-    title: 'Senior Software Engineer',
-    cssFeature: 'CSS nesting',
-    questionOne: `In many ways, the creation of [Storybook](https://storybook.js.org/). Version 3 coincided with the start of my second React project and started me thinking about how I might be able to design components once and share them between the two apps, leading to my first basic design system. Over the years I've focused more of my time on design systems, refined my skills, and fallen deeper down the rabbit hole.`,
-    questionTwo: `[Brad Frost](https://bradfrost.com/)'s work on Atomic Design and his vision for a Global Design System have significantly informed how I think about design systems. [Dave Rupert](https://daverupert.com/) has opened my eyes to how much is possible with Web Components, [Bartosz Ciechanowski](https://ciechanow.ski/) showcases exceptional writing and storytelling on the web, and I find continuous inspiration from [Una Kravets](https://una.im/), [Jen Simmons](https://jensimmons.com/), and [Adam Argyle](https://nerdy.dev/), as well as the superior Joshs; [Collinsworth](https://joshcollinsworth.com/) and [Comeau](https://www.joshwcomeau.com/).`,
-    favoriteTools: 'Raycast, Obsidian, TypeScript, Web Components, V60, ZSA Moonlander, OP-1',
-    avatar: 'https://avatars.githubusercontent.com/joshfarrant?s=512',
-    gif: 'https://github.com/joshfarrant/joshfarrant/blob/master/assets/img/jameshoffmann-no.gif?raw=true',
     alumni: false,
   },
 ]

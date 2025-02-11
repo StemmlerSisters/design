@@ -143,13 +143,21 @@ Sub-items may be used to render nested navigation structures. Up to 4 levels of 
 
 Do not replace your NavList with a [tree view](/components/tree-view) to support a deeply nested navigation structure. A tree view is never an accessible replacement for navigation, as it serves a different purpose and is not recognized as navigation by assistive technologies.
 
+## Responsive layout
+
+For information on responsive layout of a nav list that is used in a sidebar, see the [responsive sidebar navigation patterns](/navigation#responsive-sidebar-navigation-patterns) section of our navigation guidelines for more information.
+
 ## Accessibility
 
-Nav lists should always be labeled for assistive technologies, even if the label is visually hidden.
+Nav lists should always be labeled for assistive technologies, even if the label is visually hidden. Nav list items are links, so they should never contain buttons or other clickable elements.
 
-Nav list items are links, so they should never contain buttons or other clickable elements.
+### Inactive Items
 
 Inactive nav list items are not rendered as `<a>` tags since we don't know the href value. The only focusabe part of the item is the leading visual. See the [action list accessibility guidelines](/components/action-list#tooltips-and-dialogs-on-inactive-items) for more details.
+
+### Leading Visuals
+
+Leading visuals are intended to be decorative only; the context of the leading visual should be provided in the text of `NavList.Item`. Only the text in `NavList.item` and any trailing visuals within `NavList.Item` are included in its accessible name, while anything inside `NavList.LeadingVisual` will be ignored.
 
 ### Known accessibility issues (GitHub staff only)
 

@@ -2,8 +2,11 @@
 title: Form control
 description: Form control displays a labelled input and, optionally, associated validation text and/or hint text.
 reactId: form_control
+railsIds:
+  - Primer::Alpha::FormControl
 ---
 
+import Code from '@primer/gatsby-theme-doctocat/src/components/code'
 import ComponentLayout from '~/src/layouts/component-layout'
 export default ComponentLayout
 import {AccessibilityLink} from '~/src/components/accessibility-link'
@@ -23,6 +26,37 @@ Form controls allow users to provide data. At a minimum, they include an input a
 To learn more about anatomy, input methods, forms structure, validation, and more, please refer to our [Forms guidance](/ui-patterns/forms/overview).
 
 ## Accessibility
+
+### Required Fields
+
+When using symbols -e.g., an asterisk (*)- to indicate particular fields are required within a form, consider adding a "Required fields are marked with an asterisk (\*)" message at the top of the form for extra clarity.
+
+When marking a control as required, opt to mark the form control as required instead of the input contained within it. The form control will ensure that the required state is passed down to the input element.
+
+<DoDontContainer>
+  <Do>
+        <Code classname="language-jsx">{`
+      <FormControl required>
+  <FormControl.Label>
+    Form Input Label
+  </FormControl.Label>
+  <Checkbox />
+</FormControl>
+    `}</Code>
+    <Caption>Set the required field in the form control</Caption>
+  </Do>
+  <Dont>
+    <Code classname="language-jsx">{`
+      <FormControl>
+  <FormControl.Label>
+    Form Input Label
+  </FormControl.Label>
+  <Checkbox required />
+</FormControl>
+    `}</Code>
+    <Caption>Don’t set the required field on the underlying input</Caption>
+  </Dont>
+</DoDontContainer>
 
 ### Known accessibility issues (GitHub staff only)
 
