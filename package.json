@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@github/prettier-config": "^0.0.6",
-    "@octokit/auth-app": "^4.0.13",
+    "@octokit/auth-app": "^7.2.1",
     "@octokit/rest": "^19.0.13",
     "@primer/component-metadata": "^0.5.1",
     "@primer/gatsby-theme-doctocat": "^4.7.1",
